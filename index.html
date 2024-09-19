@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeMaster</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+   <nav class="navbar">
+      <!-- Left Icon/Image -->
+      <img src="images/logo.png" alt="Editor Logo">
+
+      <!-- Centered List -->
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="code.html">Code Now</a></li>
+      </ul>
+  </nav>
+    
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Code Master!</h1>
+            <p>Discover the best tools for your coding needs and provide your feedback!</p>
+            <a href="#feedback" class="btn">Give Feedback</a> 
+            <br>
+            <a href="code.html" class="btn2">Code Now</a>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Code Master</h2>
+        <p>Our code editor is designed to make coding easier and more efficient. With features like syntax highlighting, code completion, and customizable themes, you'll have everything you need to code with ease.
+         <br>
+         <p>
+            Welcome to our Code Editor project, a powerful yet simple tool designed to make coding easier and more efficient. This editor supports multiple programming languages, providing syntax highlighting, auto-completion, and error detection to enhance your coding experience. With a clean interface and user-friendly design, it's perfect for both beginners and professionals. Try out the editor and share your feedback—your suggestions will help us make it even better!
+         </p>
+        </p>
+    </section>
+
+    <div class="image-flex">
+      <img src="images/codework.png" alt="Editor Logo">
+    </div>
+
+    <h2 id="h">Features</h2>
+    <section id="features">
+        <div class="feature-card">
+            <h3>Syntax Highlighting</h3>
+            <p>Our editor provides syntax highlighting for multiple languages, making it easier to read and write code.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Code Completion</h3>
+            <p>Enjoy code completion suggestions as you type, helping you write code faster and with fewer errors.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Customizable Themes</h3>
+            <p>Customize the appearance of the editor with various themes to suit your preferences.</p>
+        </div>
+    </section>
+
+   
+    <section id="feedback">
+      <h2>Give Us Your Feedback</h2>
+      <form id="feedback-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="feedback">Your Feedback:</label>
+          <textarea id="feedback-text" name="feedback" rows="4" required></textarea>
+          
+          <button type="submit">Submit Feedback</button>
+      </form>
+      
+      <div id="comments-section">
+          <h3>What People Are Saying</h3>
+          <!-- Feedback comments will be displayed here -->
+      </div>
+  </section>
+  
+  
+    
+    <footer>
+      <footer>
+         <h>© 2024 All Rights Reserved. Design by Harshit Chauhan.</h>
+     </footer>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
